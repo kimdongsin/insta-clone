@@ -1,0 +1,32 @@
+body{
+    font-family: 'Satisfy', cursive;
+}
+
+.header__nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 12px 10%;
+}
+
+.header__nav__logo{
+    margin-right: 60px;
+}
+
+.header__nav__logo span a{
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.header__nav__icon{
+    font-size: 22px;
+}
+
+.header__nav__icon i:not(:last-child){
+    margin-right: 15px;
+}
+
+.header__nav__search input{
+    text-align: center;
+}
