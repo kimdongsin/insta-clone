@@ -2,11 +2,15 @@ body{
     font-family: 'Satisfy', cursive;
 }
 
+.header{
+    border-bottom: 1px solid #eae8e8;
+}
+
 .header__nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin: 12px 10%;
+    margin: 13px 10%;
 }
 
 .header__nav__logo{
@@ -29,4 +33,10 @@ body{
 
 .header__nav__search input{
     text-align: center;
+    background-color: rgb(245, 245, 245);
+    border-radius: 3px;
+    border: 1px solid #d4d2d2;
+    width: 210px;
+    height: 25px;
+    font-size: 14px;
 }
