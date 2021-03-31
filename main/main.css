@@ -1,4 +1,4 @@
-body{
+.header__nav__logo{
     font-family: 'Satisfy', cursive;
 }
 
@@ -25,9 +25,10 @@ body{
 
 .header__nav__icon{
     font-size: 22px;
+    position: relative;
 }
 
-.header__nav__icon i:not(:last-child){
+.header__nav__icon i{
     margin-right: 15px;
 }
 
@@ -39,4 +40,12 @@ body{
     width: 210px;
     height: 25px;
     font-size: 14px;
+}
+
+.nav__profile{
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    border-radius: 100%;
+    margin-left: 10px;
 }
