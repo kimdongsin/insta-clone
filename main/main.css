@@ -106,4 +106,103 @@
     width: 537px;
     border: 1px solid #eae8e8;
     margin-top: 20px;
+    background-color: white;
+}
+
+.story__nav__left{
+    background-image: url(proflie.png);
+    width: 35px;
+    height: 35px;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 100%;
+    margin:15px;
+}
+
+.left__story__nav{
+    display: flex;
+    align-items: center;
+}
+
+.story__nav__right{
+    display: flex;
+}
+
+.nav__right__icon{
+    margin-left: 250%;
+}
+
+.story__bottom__icon{
+    display: flex;
+    justify-content:space-between;
+    margin: 10px 10px 0px 5px;
+    font-size: 20px;
+}
+
+.bottom__icon__one i:not(:last-child){
+    margin-right: 10px;
+}
+
+.story__bottom__like span{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.story__bottom__comment{
+    font-size: 12px;
+}
+
+.story__bottom__comment span a{
+    font-weight: bold;
+}
+
+.story__link{
+    text-decoration: none;
+    color: black;
+}
+
+.story__link2{
+    text-decoration: none;
+    color: blue;
+}
+
+.story__bottom_view_all span a{
+    color: gray;
+    font-size: 13px;
+}
+
+.story__bottom__day{
+    font-size: 10px;
+    color: gray;
+}
+
+.story__bottom__writing{
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #eae8e8;
+    border-bottom: 1px solid #eae8e8;
+    padding: 10px 0px;
+    margin-top: 5px;
+}
+
+.bottom__writing__icon{
+    font-size: 22px;
+    margin: 0px 10px;
+}
+
+.bottom__writing__text{
+    width: 450px;
+    height: 25px;
+    font-size: 13px;
+    border: none;
+}
+
+.bottom__writing__button a{
+    font-size: 13px;
+    color: rgb(77, 147, 238);
+    text-decoration: none;
+}
+
+.left__story__bottom > *{
+    margin-bottom: 7px;
 }
