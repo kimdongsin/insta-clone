@@ -206,3 +206,62 @@
 .left__story__bottom > *{
     margin-bottom: 7px;
 }
+
+.main__right{
+    width: 300px;
+    margin: 22px 0px 0px 35px;
+}
+
+.main__right__img{
+    background-image: url(proflie.png);
+    width: 40px;
+    height: 40px;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 100%;
+}
+
+.main__right__profile{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.main__right__protext{
+    display: flex;
+    flex-direction: column;
+    margin: 0px 30% 0px 15px;
+    font-size: 14px;
+    color: gray;
+}
+
+.main__right__protext span:nth-child(1){
+    font-weight: bold;
+    margin-bottom: 3px;
+    color: black;
+    font-size: 13px;
+}
+
+.right__posting__button a{
+    text-decoration: none;
+    color: rgb(77, 147, 238);
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.main__right__nomination{
+    margin-top: 20px;
+}
+
+.right__nomination__title{
+    font-weight: bold;
+    color: gray;
+    margin-right: 22%;
+}
+
+.right__nomination__all a{
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+}
