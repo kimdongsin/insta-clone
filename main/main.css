@@ -214,12 +214,22 @@
 
 .main__right__img{
     background-image: url(proflie.png);
-    width: 40px;
+    width: 46.16px;
     height: 40px;
     background-position: center center;
     background-size: cover;
     border-radius: 100%;
 }
+
+.main__right__posting .main__right__posting{
+    padding-right: 15px;
+}
+
+.main__right__posting1{
+    padding-right: 15px;
+}
+
+
 
 .main__right__profile{
     display: flex;
@@ -230,14 +240,14 @@
 .main__right__protext{
     display: flex;
     flex-direction: column;
-    margin: 0px 30% 0px 15px;
-    font-size: 14px;
+    font-size: 12px;
     color: gray;
+    margin:0px 15px;
 }
 
 .main__right__protext span:nth-child(1){
     font-weight: bold;
-    margin-bottom: 3px;
+    margin-bottom: 4px;
     color: black;
     font-size: 13px;
 }
@@ -256,7 +266,7 @@
 .right__nomination__title{
     font-weight: bold;
     color: gray;
-    margin-right: 22%;
+    margin-right: 29%;
 }
 
 .right__nomination__all a{
@@ -264,4 +274,19 @@
     color: black;
     font-size: 12px;
     font-weight: bold;
+}
+
+.main__right__recommended_box{
+    padding-right: 15px;
+}
+
+.main__right__recommended_box > div{
+    margin-top: 15px;
+}
+
+.main__right__probox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
