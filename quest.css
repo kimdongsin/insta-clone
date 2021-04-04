@@ -1,0 +1,56 @@
+.header__nav__logo{
+    font-family: 'Satisfy', cursive;
+}
+
+.header{
+    border-bottom: 1px solid #eae8e8;
+}
+
+.header__nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 13px 10%;
+}
+
+.header__nav__icon a{
+    color:black;
+}
+
+.header__nav__logo{
+    margin-right: 60px;
+}
+
+.header__nav__logo span a{
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.header__nav__icon{
+    font-size: 22px;
+    position: relative;
+}
+
+.header__nav__icon i{
+    margin-right: 15px;
+}
+
+.header__nav__search input{
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+    border-radius: 3px;
+    border: 1px solid #d4d2d2;
+    width: 210px;
+    height: 25px;
+    font-size: 14px;
+}
+
+.nav__profile{
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    border-radius: 100%;
+    margin-left: 10px;
+}
+

@@ -1,0 +1,199 @@
+.header__nav__logo{
+    font-family: 'Satisfy', cursive;
+}
+
+.header{
+    border-bottom: 1px solid #eae8e8;
+}
+
+.header__nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 13px 10%;
+}
+
+.header__nav__icon a{
+    color:black;
+}
+
+.header__nav__logo{
+    margin-right: 60px;
+}
+
+.header__nav__logo span a{
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.header__nav__icon{
+    font-size: 22px;
+    position: relative;
+}
+
+.header__nav__icon i{
+    margin-right: 15px;
+}
+
+.header__nav__search input{
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+    border-radius: 3px;
+    border: 1px solid #d4d2d2;
+    width: 210px;
+    height: 25px;
+    font-size: 14px;
+}
+
+.nav__profile{
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    border-radius: 100%;
+    margin-left: 10px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    background-color: #f9f9f9;
+    height: 1000px;
+}
+
+.main__container{
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
+.main__topbar{
+    display: flex;
+    border: 1px solid #eae8e8;
+    background-color: white;
+}
+
+.main__topbar__namebox{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    border-right: 1px solid #eae8e8;
+    padding: 15px;
+}
+
+.topbar__namebox__name{
+    display: flex;
+    justify-content: center;
+    margin-left: 25%;
+}
+
+.topbar__namebox__name span{
+    font-size: 13px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.topbar__namebox__icon{
+    font-size: 20px;
+}
+
+.opponent__profilebox__profile{
+    background-image: url(proflie.png);
+    width: 25px;
+    height: 25px;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+.main__topbar__opponent{
+    width: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.topbar__opponent__profliebox{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+}
+
+.opponent__profilebox__text{
+    display: flex;
+    flex-direction: column;
+}
+
+.opponent__profilebox__text span:nth-child(1){
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.opponent__profilebox__text span:nth-child(2){
+    font-size: 11px;
+    color: gray;
+}
+
+.topbar__opponent__icon{
+    font-size: 20px;
+    margin-left: 60%;
+}
+
+.bottombar__list__profile{
+    background-image: url(proflie.png);
+    width: 45px;
+    height: 45px;
+    background-position: center center;
+    background-size: cover;
+    border-radius: 100%;
+    margin-left: 20px;
+}
+
+.main__bottombar{
+    display: flex;
+    background-color: white;
+    border-left: 1px solid #eae8e8;
+    border-right: 1px solid #eae8e8;
+    border-bottom: 1px solid #eae8e8;
+}
+
+.main__bottombar__list{
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    width: 330px;
+    border-right: 1px solid #eae8e8;
+}
+
+.bottombar__list__direction{
+    display: flex;
+}
+
+.bottombar__list__text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    font-size: 12px;
+    margin-top: 7px;
+}
+
+.bottombar__list__text span:nth-child(2){
+    margin-top: 5px;
+    color: gray;
+}
+
+.main__bottombar__list > div:not(:first-child){
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.bottombar__list__direction:last-child{
+    background-color: #e8e8e8;
+    padding-bottom: 10px;
+}
+
+.main__bottombar__dmbox{
+    width: 500px;
+    height: 450px;
+}
