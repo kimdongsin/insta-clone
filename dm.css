@@ -84,7 +84,7 @@
 .topbar__namebox__name{
     display: flex;
     justify-content: center;
-    margin-left: 25%;
+    margin-left: 27%;
 }
 
 .topbar__namebox__name span{
@@ -195,5 +195,73 @@
 
 .main__bottombar__dmbox{
     width: 500px;
-    height: 450px;
+    height: 600px;
+}
+
+.bottombar__dmbox__container{
+    margin-top: 50%;
+    text-align: center;
+}
+
+.dmbox__container__time{
+    color: gray;
+    font-size: 12px;
+}
+
+.dmbox__container__text span{
+    padding: 10px;
+    border-radius: 50px;
+    background-color: rgb(230, 230, 230);
+    font-size: 13px;
+}
+
+.dmbox__container__text{
+    margin: 20px 15px 20px;
+    text-align: right;
+    
+}
+
+.dmbox__container__img img{
+    margin-left: 45%;
+    border: 1px solid #e8e8e8;
+    border-radius: 30px;
+}
+
+.dmbox__container__opponent{
+    display: flex;
+    margin: 55px 0px 0px 10px;
+}
+
+.dmbox__container__opponent span{
+    border-radius: 50px;
+    border: 1px solid #e8e8e8;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.dmbox__container__chatting{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4%;
+    padding: 5px;
+    border: 1px solid #e8e8e8;
+    border-radius: 50px;
+    width: 450px;
+    margin-left: 15px;
+}
+
+.dmbox__container__chatting div{
+    margin: 0px 10px;
+}
+
+.container__chatting__icon{
+    font-size: 25px;
+}
+
+.chatting__text{
+    width: 370px;
+    height: 25px;
+    font-size: 12px;
+    border:none;
 }
