@@ -13,6 +13,10 @@
     margin: 13px 10%;
 }
 
+.header__nav__icon a{
+    color:black;
+}
+
 .header__nav__logo{
     margin-right: 60px;
 }
