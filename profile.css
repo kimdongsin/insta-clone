@@ -81,7 +81,6 @@
 .main__profilebox{
     margin-top: 30px;
     display: flex;
-    justify-content: center;
     width: 700px;
 }
 
@@ -150,16 +149,30 @@
     border-top: 2px solid #e8e8e8;
     padding-top: 15px;
     position: relative;
+    font-size: 12px;
 }
 
 .border--{
     border-top: 2px solid black;
     padding-top: 15px;
-    
+    font-weight: bold;
 }
 
 .body__header__text{
     display: flex;
     position: absolute;
     top: -2px;
+}
+
+.body__header__text > div:not(:first-child){
+    padding-top: 17px;
+    color: gray;
+}
+
+.body__header__text > div:nth-child(2){
+    margin: 0px 60px;
+}
+
+.body__header__text > div:nth-child(3){
+    margin-right:60px;
 }
