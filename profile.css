@@ -1,3 +1,8 @@
+#container{
+    background-color: #f9f9f9;
+    height: 1000px;
+}
+
 .header__nav__logo{
     font-family: 'Satisfy', cursive;
 }
@@ -11,7 +16,8 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin: 13px 10%;
+    padding: 13px 10%;
+    background-color: white;
 
 }
 
@@ -68,8 +74,6 @@
 }
 
 .main{
-    background-color: #f9f9f9;
-    height: 1000px;
     display: flex;
     justify-content: center;
 }
@@ -77,6 +81,8 @@
 .main__profilebox{
     margin-top: 30px;
     display: flex;
+    justify-content: center;
+    width: 700px;
 }
 
 .main__profilebox__img{
@@ -134,4 +140,26 @@
 
 .profilebox__text__h3 span{
     font-size: 14px;
+}
+
+.body__header{
+    display: flex;
+    justify-content: center;
+    width: 900px;
+    margin: 50px auto;
+    border-top: 2px solid #e8e8e8;
+    padding-top: 15px;
+    position: relative;
+}
+
+.border--{
+    border-top: 2px solid black;
+    padding-top: 15px;
+    
+}
+
+.body__header__text{
+    display: flex;
+    position: absolute;
+    top: -2px;
 }
