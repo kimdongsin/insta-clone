@@ -9,7 +9,6 @@
 
 .header{
     border-bottom: 1px solid #eae8e8;
-    position: relative;
 }
 
 .header__nav{
@@ -22,15 +21,15 @@
 }
 
 .nav__proring{
-    width: 27px;
-    height: 27px;
+    width: 20px;
+    height: 20px;
     border-radius: 100%;
     border: 2px solid transparent;
     background-image: linear-gradient(#ffffff, #ffffff), linear-gradient(to right, #707070aa, #707070aa);
     background-origin: border-box;
     background-clip: content-box, border-box;
     position: absolute;
-    left: 879px;
+    margin-left: 10px;
 }
 
 .header__nav__icon a{
@@ -49,6 +48,8 @@
 
 .header__nav__icon{
     font-size: 22px;
+    height: 23px;
+    position: relative;
 }
 
 .header__nav__icon i{
@@ -66,11 +67,10 @@
 }
 
 .nav__profile{
-    width: 21px;
-    height: 22px;
-    position: absolute;
+    width: 20px;
+    height: 20px;
     border-radius: 100%;
-    margin-left: 10px;
+    margin-left: 15px;
 }
 
 .main{
