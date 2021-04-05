@@ -24,7 +24,7 @@
     background-origin: border-box;
     background-clip: content-box, border-box;
     position: absolute;
-    left: 892px;
+    left: 879px;
 }
 
 .header__nav__icon a{
@@ -60,10 +60,78 @@
 }
 
 .nav__profile{
-    width: 22px;
+    width: 21px;
     height: 22px;
     position: absolute;
     border-radius: 100%;
     margin-left: 10px;
 }
 
+.main{
+    background-color: #f9f9f9;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+}
+
+.main__profilebox{
+    margin-top: 30px;
+    display: flex;
+}
+
+.main__profilebox__img{
+    background-image: url(proflie.png);
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    background-position: center center;
+    background-size: cover;
+}
+
+.main__profilebox__text{
+    margin: 0px 0px 0px 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.profilebox__text__h1{
+    display: flex;
+    align-content: center;
+    margin-bottom: 20px;
+}
+
+.profilebox__text__h1 div:nth-child(1){
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.profilebox__text__h1 div:nth-child(2){
+    border: 1px solid #e8e8e8;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 2px 15px 0px;
+    font-size: 14px;
+}
+
+.profilebox__text__h1 div:nth-child(3){
+    margin-top: 2px;
+    font-size: 25px;
+}
+
+.profilebox__text__h2{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.profilebox__text__h2 b{
+    font-weight: bold;
+}
+
+.profilebox__text__h3{
+    font-weight: bold;
+}
+
+.profilebox__text__h3 span{
+    font-size: 14px;
+}
