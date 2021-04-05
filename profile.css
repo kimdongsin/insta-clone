@@ -184,8 +184,6 @@
 }
 
 .body2__link{
-    background-color: white;
-    border: 1px solid brown;
     width: 450px;
     height: 450px;
     display: flex;
