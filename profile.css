@@ -258,10 +258,18 @@
     color: gray;
     display: flex;
     flex-direction: column;
-    margin-top: 13%;
+    margin-top: 8%;
     font-size: 12px;
 }
 
 .footer > *{
     text-align: center;
+}
+
+.footer__text1 > span{
+    margin: 0px 5px;
+}
+
+.footer__text2{
+    margin-top: 20px;
 }
