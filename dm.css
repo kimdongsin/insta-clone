@@ -216,7 +216,7 @@
 }
 
 .dmbox__container__text{
-    margin: 20px 15px 20px;
+    margin: 3% 2% 5%;
     text-align: right;
     
 }
@@ -229,7 +229,7 @@
 
 .dmbox__container__opponent{
     display: flex;
-    margin: 55px 0px 0px 10px;
+    margin: 11% 0px 0px 3%;
 }
 
 .dmbox__container__opponent span{
@@ -260,8 +260,237 @@
 }
 
 .chatting__text{
-    width: 370px;
-    height: 25px;
+    width: 70%;
     font-size: 12px;
     border:none;
+}
+
+@media screen and (min-width: 376px) and (max-width:425px) {
+    .header__nav__search{
+        display: none;
+    }
+
+    .header__nav{
+        margin: 13px 0px;
+        justify-content: flex-start;
+        margin-left: 10px;
+    }
+
+    .header__nav__icon{
+        position: absolute;
+        left: 180px;
+    }
+
+    .header__nav__logo{
+        margin-right: 170px;
+    }
+
+    .header__nav__icon i{
+        margin-right: 10px;
+    }
+
+    .main__bottombar__dmbox{
+        display: none;
+    }
+
+    .main__topbar__opponent{
+        position: absolute;
+        left: 70%;
+        height: 1000px;
+        background-color: white;
+        width: 124.5px;
+    }
+    
+    .main{
+        justify-content: flex-start;
+    }
+
+    .main__container{
+        margin:0px;
+        width: 70%;
+    }
+
+    .main__topbar{
+        border-top: none;
+    }
+
+    .header__nav__icon{
+        position: absolute;
+        left: 210px;
+    }
+
+    .topbar__opponent__profliebox{
+        display: none;
+    }
+
+    .topbar__opponent__icon{
+        display: none;
+    }
+
+    .main__topbar__namebox{
+        border:none;
+    }
+
+    .main__bottombar__list{
+        border: none;
+    }
+
+    .main__bottombar{
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 321px) and (max-width:375px) {
+    .header__nav__search{
+        display: none;
+    }
+
+    .header__nav{
+        margin: 13px 0px;
+        justify-content: flex-start;
+        margin-left: 10px;
+    }
+
+    .header__nav__icon{
+        position: absolute;
+        left: 110px;
+    }
+
+    .header__nav__logo{
+        margin-right: 170px;
+    }
+
+    .header__nav__icon i{
+        margin-right: 10px;
+    }
+
+    .main__bottombar__dmbox{
+        display: none;
+    }
+
+    .main__topbar__opponent{
+        position: absolute;
+        left: 70%;
+        height: 1000px;
+        background-color: white;
+        width: 127.5px;
+    }
+    
+    .main{
+        justify-content: flex-start;
+    }
+
+    .main__container{
+        margin:0px;
+        width: 70%;
+    }
+
+    .main__topbar{
+        border-top: none;
+    }
+
+    .header__nav__icon{
+        position: absolute;
+        left: 160px;
+    }
+
+    .topbar__opponent__profliebox{
+        display: none;
+    }
+
+    .topbar__opponent__icon{
+        display: none;
+    }
+
+    .main__topbar__namebox{
+        border:none;
+    }
+
+    .main__bottombar__list{
+        border: none;
+    }
+
+    .main__bottombar{
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 1px) and (max-width:320px) {
+    .header__nav__search{
+        display: none;
+    }
+
+    .header__nav{
+        margin: 13px 0px;
+        justify-content: flex-start;
+        margin-left: 10px;
+    }
+
+    .header__nav__icon{
+        position: absolute;
+        left: 110px;
+    }
+
+    .header__nav > div:last-child{
+        position: absolute;
+        left: 110px;
+    }
+
+    .header__nav__logo{
+        margin-right: 170px;
+    }
+
+    .header__nav__icon i{
+        margin-right: 10px;
+    }
+
+    .main__bottombar__dmbox{
+        display: none;
+    }
+
+    .main__topbar__opponent{
+        position: absolute;
+        left: 70%;
+        height: 1000px;
+        background-color: white;
+        width: 127.5px;
+    }
+    
+    .main{
+        justify-content: flex-start;
+    }
+
+    .main__container{
+        margin:0px;
+        width: 70%;
+    }
+
+    .main__topbar{
+        border-top: none;
+    }
+
+    .header__nav__icon{
+        position: absolute;
+        left: 210px;
+    }
+
+    .topbar__opponent__profliebox{
+        display: none;
+    }
+
+    .topbar__opponent__icon{
+        display: none;
+    }
+
+    .main__topbar__namebox{
+        border:none;
+    }
+
+    .main__bottombar__list{
+        border: none;
+    }
+
+    .main__bottombar{
+        height: 100%;
+    }
 }
