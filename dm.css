@@ -336,7 +336,7 @@
 
     .main__bottombar__list{
         border: none;
-        display: none;
+        
     }
 
     .main__bottombar{
@@ -362,6 +362,10 @@
     .topbar__namebox__name span::before{
         content: 'Direct';
         visibility: visible;
+    }
+
+    .bottombar__list__direction:last-child{
+        background-color: white;
     }
 }
 
@@ -436,7 +440,7 @@
 
     .main__bottombar__list{
         border: none;
-        display: none;
+
     }
 
     .main__bottombar{
@@ -463,6 +467,10 @@
     .topbar__namebox__name span::before{
         content: 'Direct';
         visibility: visible;
+    }
+
+    .bottombar__list__direction:last-child{
+        background-color: white;
     }
 }
 
@@ -542,7 +550,6 @@
 
     .main__bottombar__list{
         border: none;
-        display: none;
     }
 
     .main__bottombar{
@@ -569,4 +576,10 @@
         content: 'Direct';
         visibility: visible;
     }
+
+    .bottombar__list__direction:last-child{
+        background-color: white;
+    }
+
+    
 }
