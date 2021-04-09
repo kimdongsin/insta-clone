@@ -342,6 +342,18 @@
     .main__bottombar{
         height: 100%;
     }
+
+    .topbar__namebox__name div{
+        -ms-transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+        position: absolute;
+        left: 20px;
+    }
+
+    .topbar__namebox__name{
+        margin-left: 39%;
+    }
 }
 
 @media screen and (min-width: 321px) and (max-width:375px) {
@@ -420,6 +432,19 @@
 
     .main__bottombar{
         height: 100%;
+    
+    }
+
+    .topbar__namebox__name div{
+        -ms-transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+        position: absolute;
+        left: 20px;
+    }
+
+    .topbar__namebox__name{
+        margin-left: 36%;
     }
 }
 
@@ -504,5 +529,17 @@
 
     .main__bottombar{
         height: 100%;
+    }
+
+    .topbar__namebox__name div{
+        -ms-transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+        transform: rotate(90deg);
+        position: absolute;
+        left: 20px;
+    }
+
+    .topbar__namebox__name{
+        margin-left: 34%;
     }
 }
