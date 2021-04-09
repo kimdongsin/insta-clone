@@ -352,7 +352,16 @@
     }
 
     .topbar__namebox__name{
-        margin-left: 39%;
+        margin-left: 47%;
+    }
+
+    .topbar__namebox__name span{
+        visibility: hidden;
+    }
+
+    .topbar__namebox__name span::before{
+        content: 'Direct';
+        visibility: visible;
     }
 }
 
@@ -444,7 +453,16 @@
     }
 
     .topbar__namebox__name{
-        margin-left: 36%;
+        margin-left: 47%;
+    }
+
+    .topbar__namebox__name span{
+        visibility: hidden;
+    }
+
+    .topbar__namebox__name span::before{
+        content: 'Direct';
+        visibility: visible;
     }
 }
 
@@ -531,6 +549,10 @@
         height: 100%;
     }
 
+    .topbar__namebox__name{
+        margin-left: 47%;
+    }
+
     .topbar__namebox__name div{
         -ms-transform: rotate(90deg);
         -webkit-transform: rotate(90deg);
@@ -539,7 +561,12 @@
         left: 20px;
     }
 
-    .topbar__namebox__name{
-        margin-left: 34%;
+    .topbar__namebox__name span{
+        visibility: hidden;
+    }
+
+    .topbar__namebox__name span::before{
+        content: 'Direct';
+        visibility: visible;
     }
 }
