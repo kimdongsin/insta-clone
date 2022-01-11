@@ -1,1 +1,1 @@
-# insta-clone 2021년 제작
+# insta-clone(퍼블리싱 연습) 2021년 제작
